@@ -1,4 +1,6 @@
 {
+  
+  /* EventTicketsSection.blade.php */
   "This event has already started": "Cet événement a déjà démarré",
   "This event has ended": "Cet événement est terminé",
   "Currently Not On Sale": "Pas en vente actuellement",
@@ -6,5 +8,21 @@
   "Sales Have Not Started": "La vente n'a pas encore débuté",
   "Sales Have Ended": "La vente est terminée",
   "Offline Payment Methods Available": "Méthodes disponibles pour le paiement hors-ligne",
-  "Tickets are currently unavailable.": "Les tickets ne sont pas disponibles actuellement"
+  "Tickets are currently unavailable.": "Les tickets ne sont pas disponibles actuellement",
+  
+  /* EventCreateOrderSection.blade.php */
+  "Order Details": "Détails de la commande",
+  "Order Summary": "Résumé de la commande",
+  "FREE": "GRATUIT",
+  "Total": "Total",
+  "Please note you only have": "Veuillez noter que vous n'avez que",
+  "to complete this transaction before your tickets are re-released.": "pour terminer cette transaction avant que vous tickets ne soient remis à disposition.",
+  "Your Information": "Vos informations",
+  "Copy buyer details to all ticket holders": "Recopier les détails de l'acheteur vers tous les détenteurs de ticket",
+  "Ticket Holder Information": "Information sur le détenteur du ticket",
+  "Ticket Holder": "Détenteur de ticket",
+  "Details": ", détails",
+  "Payment Information": "Information de paiement",
+  "Offline Payment Instructions": "Instructions pour le paiement hors-ligne",
+  
 }
