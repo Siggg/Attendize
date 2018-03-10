@@ -32,4 +32,12 @@
   "Event Dashboard": "Tableau de bord de l'événement",
   "Organiser Dashboard": "Tableau de bord de l'organisateur",
   
+  /* EventHeaderSection.blade.php */
+  "This event is not visible to the public": "Cet événement n'est pas visible par le public",
+  "Publish Event": "Publier l'événement",
+  "Presents": "présente",
+  "TICKETS": "TICKETS",
+  "DETAILS": "DETAILS",
+  "LOCATION": "LOCALISATION",
+  
 }
