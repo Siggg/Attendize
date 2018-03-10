@@ -7,7 +7,7 @@
 
     @if($event->start_date->isPast())
         <div class="alert alert-boring">
-            This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
+            {{($event->end_date->isFuture() ? __('This event has already started') : __('This event has ended'))}}.
         </div>
     @else
 
