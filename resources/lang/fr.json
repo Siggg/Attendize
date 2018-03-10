@@ -61,4 +61,28 @@
   "TAXES &amp; FEES": "TAXES &amp; COMMISSIONS",
   "TOTAL PAYABLE": "TOTAL A PAYER",
   
+  /* EventViewOrderSection.blade.php */
+  "Thank you for your order!": "Merci pour votre commande !",
+  "Download Tickets": "Télécharger les tickets",
+  "Your tickets": "Vos tickets",
+  "and a confirmation email have been sent to you.": "et un e-mail de confirmation vous ont été envoyés",
+  "First Name": "Prénom",
+  "Last Name": "Nom de famille",
+  "Amount": "Quantité",
+  "Reference": "Référence",
+  "Date": "Date",
+  "Email": "e-mail",
+  "Payment Instructions": "Instructions de paiement",
+  "This order is awaiting payment. Please read the below instructions on how to make payment.": "Cette commande est en attente de paiement. Veuillez lire les instructions ci-dessous pour faire votre paiement."
+  "Order Items": "Contenu de la commande",
+  "Ticket": "Ticket",
+  "Quantity": "Quantité",
+  "Price": "Prix",
+  "Booking Fee": "Frais de réservation",
+  "Total": "Total",
+  "Refunded Amount": "Quantité remboursée",
+  "Order Attendees": "Participants de la commande",
+  "Cancelled": "Annulé",
+  
+  
 }
