@@ -28,5 +28,8 @@
   /* EventTicketsSection.blade.php */
   "Event Details": "Détails de l'événement",
   
+  /* EventFooterSection.blade.php */
+  "Event Dashboard": "Tableau de bord de l'événement",
+  "Organiser Dashboard": "Tableau de bord de l'organisateur",
   
 }
