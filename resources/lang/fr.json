@@ -58,7 +58,7 @@
   "Price": "Prix",
   "Total": "Total",
   "SUB TOTAL": "SOUS-TOTAL",
-  "TAXES &amp; FEES": "TAXES &amp; COMMISSIONS",
+  "TAXES &amp; FEES": "TAXES &amp; FRAIS",
   "TOTAL PAYABLE": "TOTAL A PAYER",
   
   /* EventViewOrderSection.blade.php */
@@ -84,5 +84,16 @@
   "Order Attendees": "Participants de la commande",
   "Cancelled": "Annulé",
   
-  
+  /* PDFTicket.blade.php */
+  "Event": "Evénement",
+  "Organiser": "Organisateur",
+  "Venue": "Lieu",
+  "Start Date / Time": "Date / Heure de début",
+  "End Date / Time": "Date / Heure de fin",
+  "Name": "Nom",
+  "Ticket Type": "Type de ticket",
+  "Order Ref.": "Réf. de commande",
+  "Attendee Ref.": "Réf. de participant",
+  "inc.": "dont",
+  "Fees": "de frais",
 }
