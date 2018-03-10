@@ -1,7 +1,7 @@
 <section id='order_form' class="container">
     <div class="row">
         <h1 class="section_head">
-            Order Details
+            {{__("Order Details")}}
         </h1>
     </div>
     <div class="row">
@@ -10,7 +10,7 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         <i class="ico-cart mr5"></i>
-                        Order Summary
+                        {{__("Order Summary")}}
                     </h3>
                 </div>
 
@@ -21,7 +21,7 @@
                             <td class="pl0">{{{$ticket['ticket']['title']}}} X <b>{{$ticket['qty']}}</b></td>
                             <td style="text-align: right;">
                                 @if((int)ceil($ticket['full_price']) === 0)
-                                FREE
+                                {{__("FREE")}}
                                 @else
                                 {{ money($ticket['full_price'], $event->currency) }}
                                 @endif
@@ -33,14 +33,14 @@
                 @if($order_total > 0)
                 <div class="panel-footer">
                     <h5>
-                        Total: <span style="float: right;"><b>{{ money($order_total + $total_booking_fee,$event->currency) }}</b></span>
+                        {{__("Total")}}: <span style="float: right;"><b>{{ money($order_total + $total_booking_fee,$event->currency) }}</b></span>
                     </h5>
                 </div>
                 @endif
 
             </div>
             <div class="help-block">
-                Please note you only have <span id='countdown'></span> to complete this transaction before your tickets are re-released.
+                {{__("Please note you only have")}} <span id='countdown'></span> {{__("to complete this transaction before your tickets are re-released.")}}
             </div>
         </div>
         <div class="col-md-8 col-md-pull-4">
@@ -49,7 +49,7 @@
 
                 {!! Form::hidden('event_id', $event->id) !!}
 
-                <h3>Your Information</h3>
+                <h3>{{__("Your Information")}}</h3>
 
                 <div class="row">
                     <div class="col-xs-6">
@@ -77,14 +77,14 @@
 
                 <div class="p20 pl0">
                     <a href="javascript:void(0);" class="btn btn-primary btn-xs" id="mirror_buyer_info">
-                        Copy buyer details to all ticket holders
+                        {{__("Copy buyer details to all ticket holders")}}
                     </a>
                 </div>
 
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ticket_holders_details" >
-                            <h3>Ticket Holder Information</h3>
+                            <h3>{{__("Ticket Holder Information")}}</h3>
                             <?php
                                 $total_attendee_increment = 0;
                             ?>
@@ -94,7 +94,7 @@
 
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <b>{{$ticket['ticket']['title']}}</b>: Ticket Holder {{$i+1}} Details
+                                            <b>{{$ticket['ticket']['title']}}</b>: {{__("Ticket Holder")}} {{$i+1}} {{__("Details")}}
                                         </h3>
                                     </div>
                                     <div class="panel-body">
@@ -141,7 +141,7 @@
 
                 @if($order_requires_payment)
 
-                <h3>Payment Information</h3>
+                <h3>{{__("Payment Information")}}</h3>
 
                 @if($event->enable_offline_payments)
                     <div class="offline_payment_toggle">
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="offline_payment" style="display: none;">
-                        <h5>Offline Payment Instructions</h5>
+                        <h5>{{__("Offline Payment Instructions")}}</h5>
                         <div class="well">
                             {!! Markdown::parse($event->offline_payment_instructions) !!}
                         </div>
