@@ -40,4 +40,11 @@
   "DETAILS": "DETAILS",
   "LOCATION": "LOCALISATION",
   
+  /* EventOrganiserSection.blade.php */
+  "Organiser Page": "Page de l'organisateur",
+  "Your Name": "Votre nom",
+  "Your E-mail Address": "Votre adresse e-mail",
+  "Your Message": "Votre message",
+  "Send Message": "Envoyer le message",
+      
 }
