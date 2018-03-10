@@ -46,5 +46,9 @@
   "Your E-mail Address": "Votre adresse e-mail",
   "Your Message": "Votre message",
   "Send Message": "Envoyer le message",
+  
+  /* EventShareSection.blade.php */
+  "Check This Out": "Regarde ça",
+  
       
 }
