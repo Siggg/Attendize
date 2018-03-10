@@ -1,15 +1,5 @@
 {
   
-  /* EventTicketsSection.blade.php */
-  "This event has already started": "Cet événement a déjà démarré",
-  "This event has ended": "Cet événement est terminé",
-  "Currently Not On Sale": "Pas en vente actuellement",
-  "Sold Out": "Epuisé",
-  "Sales Have Not Started": "La vente n'a pas encore débuté",
-  "Sales Have Ended": "La vente est terminée",
-  "Offline Payment Methods Available": "Méthodes disponibles pour le paiement hors-ligne",
-  "Tickets are currently unavailable.": "Les tickets ne sont pas disponibles actuellement",
-  
   /* EventCreateOrderSection.blade.php */
   "Order Details": "Détails de la commande",
   "Order Summary": "Résumé de la commande",
@@ -50,5 +40,25 @@
   /* EventShareSection.blade.php */
   "Check This Out": "Regarde ça",
   
-      
+  /* EventTicketsSection.blade.php */
+  "This event has already started": "Cet événement a déjà démarré",
+  "This event has ended": "Cet événement est terminé",
+  "Currently Not On Sale": "Pas en vente actuellement",
+  "Sold Out": "Epuisé",
+  "Sales Have Not Started": "La vente n'a pas encore débuté",
+  "Sales Have Ended": "La vente est terminée",
+  "Offline Payment Methods Available": "Méthodes disponibles pour le paiement hors-ligne",
+  "Tickets are currently unavailable.": "Les tickets ne sont pas disponibles actuellement",
+  
+  /* EventViewInvoiceSection.blade.php */
+  "Invoice / December Period": "Facture / période de décembre",
+  "Invoice ID": "Identifiant facture",
+  "Ticket Title": "Titre du ticket",
+  "Quantity": "Quantité",
+  "Price": "Prix",
+  "Total": "Total",
+  "SUB TOTAL": "SOUS-TOTAL",
+  "TAXES &amp; FEES": "TAXES &amp; COMMISSIONS",
+  "TOTAL PAYABLE": "TOTAL A PAYER",
+  
 }
