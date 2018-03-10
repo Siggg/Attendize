@@ -25,4 +25,8 @@
   "Payment Information": "Information de paiement",
   "Offline Payment Instructions": "Instructions pour le paiement hors-ligne",
   
+  /* EventTicketsSection.blade.php */
+  "Event Details": "Détails de l'événement",
+  
+  
 }
